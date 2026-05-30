@@ -1,124 +1,87 @@
-# Smart-Travel-Planner-
-Smart Travel Planner AI is a Python-based Artificial Intelligence project that helps users find the best travel routes between cities using A* Search, BFS, DFS, and UCS algorithms. It considers distance, cost, transport methods, and delay probability to provide intelligent and efficient travel planning.*
-✈️ Smart Travel Planner AI 🚆
-🧠 Intelligent Route Planning Using Artificial Intelligence
-</div>
-📌 About The Project
+# TripGenius AI — Advanced Travel Planner using CFAI Concepts
 
-Smart Travel Planner AI is an intelligent travel planning system developed using Python and Artificial Intelligence concepts.
-The project helps users discover the best route between cities by analyzing:
+A Python Streamlit web application developed for KLH University CFAI project.
 
-✅ Distance
-✅ Travel Cost
-✅ Transport Methods
-✅ Delay Probability
-✅ Efficient Path Selection
+## Project Description
 
-The system uses powerful AI Search Algorithms to provide optimized and realistic travel planning solutions.
+TripGenius AI is an advanced travel planning web application that applies CFAI concepts from CO1 to CO6. It helps users create trip plans, get destination recommendations, compare vehicle types, find routes using search algorithms, generate CSP-style itineraries, manage budget, plan food, select hotels, track packing/documents, analyze trip risk, calculate travel readiness, generate alternative plans, and download a full trip report.
 
-🚀 Features
+## Major Features
 
-✨ Intelligent Route Planning
-✨ Graph-Based Travel Network
-✨ A* Search Algorithm
-✨ BFS (Breadth First Search)
-✨ DFS (Depth First Search)
-✨ UCS (Uniform Cost Search)
-✨ Multiple Transport Methods
-✨ Delay Prediction using Probability
-✨ Cost & Distance Calculation
-✨ Explainable Route Output
+- Advanced Login and Sign Up
+- Home Dashboard / Command Center
+- Smart Trip Planner
+- AI Recommendation Hub
+- Route Intelligence Lab
+- Vehicle / Travel Mode Recommendation
+- CSP Smart Itinerary Generator
+- Budget Intelligence
+- Food Planner
+- Hotel Recommendation
+- Packing and Document Checklist
+- Trip Risk Analyzer
+- Travel Readiness System
+- Alternative Plan Generator
+- Downloadable Trip Report
+- Project Explanation / Viva Page
+- Admin Control Panel
 
-🧠 AI Concepts Used
-AI Concept	Description
-🔍 Search Algorithms	BFS, DFS, UCS, A*
-🗺️ Knowledge Representation	Graphs & Heuristics
-🎯 Problem Solving	Optimal Route Finding
-🎲 Probabilistic Reasoning	Delay Prediction
-📊 Decision Making	Best Path Selection
-🏙️ States & Cities Included
+## Technologies Used
 
-📍 Telangana
-📍 Andhra Pradesh
-📍 Karnataka
-📍 Tamil Nadu
-📍 Kerala
-📍 Maharashtra
-📍 Delhi
-📍 Rajasthan
-📍 Gujarat
-📍 West Bengal
-📍 Odisha
-📍 Goa
-📍 Punjab
-📍 Uttar Pradesh
-📍 Assam
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Heapq
+- Collections
+- Datetime
 
-🚘 Transport Methods
-Transport	Available
-🚌 Bus	✅
-🚆 Train	✅
-✈️ Flight	✅
-🚗 Car	✅
-⚙️ Technologies Used
-Python 3
-Object Oriented Programming
-Heap Queue
-Graphs
-Artificial Intelligence
-📂 Project Structure
-SmartTravelPlanner/
-│
-├── travel_planner.py
-├── README.md
-▶️ How To Run
-1️⃣ Install Python
+## How to Run
 
-Download Python from:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-Python Official Website
+## Demo Login
 
-2️⃣ Save The File
-travel_planner.py
-3️⃣ Run The Program
-python travel_planner.py
-💻 Sample Output
-========== SMART TRAVEL PLANNER ==========
+Student:
 
-Available Cities:
-Hyderabad
-Mumbai
-Delhi
-Kolkata
+```text
+Email: student@klh.edu
+Password: student123
+```
 
-Enter Source City: Hyderabad
-Enter Destination City: Delhi
+Admin:
 
-BEST ROUTE FOUND USING A* SEARCH
+```text
+Email: admin@tripgenius.com
+Password: admin123
+```
 
-Hyderabad -> Delhi
+## CO-wise Mapping
 
-ESTIMATED COST: ₹6200
-🌟 Advantages
+| CO | CFAI Concept | Project Implementation |
+|---|---|---|
+| CO1 | Agent model, PEAS, problem formulation, Python data structures | Travel planner as intelligent agent |
+| CO2 | BFS, DFS, UCS, Greedy Search, A* | Route Intelligence Lab |
+| CO3 | CSP, constraints, scheduling | Smart Itinerary Generator |
+| CO4 | Utility functions and decision making | Destination, vehicle, and hotel recommendations |
+| CO5 | Probability and uncertainty | Risk analyzer and travel readiness score |
+| CO6 | Hybrid AI, explainability, ethics | Explainable AI dashboard, limitations, and reasoning traces |
 
-✅ Fast Route Calculation
-✅ Intelligent Decision Making
-✅ Realistic Travel Simulation
-✅ AI-Based Planning
-✅ User Friendly
-✅ Practical AI Application
+## Limitations
 
-🔮 Future Enhancements
+- Uses sample destination and route data.
+- Does not connect to live maps, weather, traffic, or hotel APIs.
+- Recommendations are rule-based and explainable, not machine-learning based.
+- Readiness and risk scores are estimates for academic demonstration.
 
-🚦 Real-Time Traffic Integration
-🌦️ Weather Prediction
-📍 Google Maps API
-🏨 Hotel Booking System
-📱 Mobile App Version
-🤖 Machine Learning Prediction
+## Future Enhancements
 
-🎯 Conclusion
-
-Smart Travel Planner AI demonstrates how Artificial Intelligence can solve real-world transportation and route optimization problems using intelligent search techniques and probabilistic reasoning.
-
-This project combines Graphs, Heuristics, Search Algorithms, and AI concepts to build an efficient and practical travel planning system.
+- Add real-time Maps API.
+- Add weather API.
+- Add database storage.
+- Add user authentication security.
+- Add live hotel/ticket API integration.
+- Add ML-based destination recommendation.
